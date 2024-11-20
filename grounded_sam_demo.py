@@ -29,10 +29,6 @@ from segment_anything import (
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-import warnings
-
-# Ignore all warnings
-warnings.filterwarnings('ignore')
 
 def load_image(data_path):
     # load image
